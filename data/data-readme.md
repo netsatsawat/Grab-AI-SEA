@@ -1,4 +1,4 @@
-The data set is available through this [link](https://s3-ap-southeast-1.amazonaws.com/grab-aiforsea-dataset/safety.zip) or by going to the official website [here](https://www.aiforsea.com/safety).
+The data set is available through this [link](https://s3-ap-southeast-1.amazonaws.com/grab-aiforsea-dataset/safety.zip) or by going to the official website [here](https://www.aiforsea.com/safety). I will not upload any data here, due to its size and its availability after the challenge is completed.
 
 Once download, you can extract them to the `data` folder if you wish to follow along the notebook. The `data` folder structure will look something like below::
 
