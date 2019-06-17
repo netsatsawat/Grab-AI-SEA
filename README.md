@@ -20,6 +20,8 @@ __Motivation__: This challenge is very interesting in so many ways, but as I use
 
 - The notebook `Grab AI Challenge_Safety_Data Exploration.ipynb` is mainly used as part of data understanding and EDA for sensor data provided by Grab. You may not run this notebook, but it will provide some understandings and explanation onto telemetry data of the sensor world.
 - The notebook `Grab AI Challenge_ML model comparison.ipynb` is purposely created to train and test ML techniques to produce the final model as well as try on feature engineering and other data transformation.
+- The notebook `Grab AI Challenge_GridSearchCV and Feature Engineering.ipynb` shows the grid search for XGBoost algorithm; with the current model and feature engineering, it achieved the AUC score of 0.5945.	
+
 
 #### Model
 
