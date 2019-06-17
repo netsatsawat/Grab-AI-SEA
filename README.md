@@ -33,6 +33,10 @@ __Motivation__: This challenge is very interesting in so many ways, but as I use
 
 - This folder contains the image embedded onto EDA and other notebooks.
 
+#### Output
+
+- This folder contains the bookingID, predicted class, and probability of the prediction, this is the outcome from running the `py` script.
+
 <br>
 
 # Run Instruction
@@ -42,11 +46,11 @@ The model is used to predict the safety of the trip as such the assumption is th
 To run the prediction, please use __Safety_Prediction.py__ in the `code` directory.
 
 1. The script in `code` folder will read in the __feature__ data file within `data/safety/features` folder.
-  - If there's any change in the data path, please adjust the `DATA_DIR` onto the correct folder respectively.
+   + If there's any change in the data path, please adjust the `DATA_DIR` onto the correct folder respectively.
 2. The script will automatically run the feature transformation and engineering.
 3. The script will load the XGBoost model object from `model` directory to make a prediction.
 4. The script will save the prediction with bookingID onto `../output/all_prediction.csv` file.
 5. If `LABEL_IND = True` in the script, it will attempt to run evaluation between the prediction with true label.
-  - The true label file should be in the `data/safety/labels` folder with the proper bookingID and label columns.
-  - If there's any change to `labels` folder, please adjust this to `LABEL_DIR` in the script respectively.
-  - If the evaluation is not neeeded, you can turn this off by setting `LABEL_IND = False` in the script.
+   + The true label file should be in the `data/safety/labels` folder with the proper bookingID and label columns.
+   + If there's any change to `labels` folder, please adjust this to `LABEL_DIR` in the script respectively.
+   + If the evaluation is not neeeded, you can turn this off by setting `LABEL_IND = False` in the script.
